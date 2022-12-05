@@ -1,0 +1,136 @@
+*,
+*::after
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 1000%;
+    scroll-behavior: smooth;
+}
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    text-decoration: none;
+}
+.main-left {
+    height: 100%;
+    width: 50%;
+    background: url('../img/image\ 1.png') no-repeat;
+    background-position: center, left;
+    background-size: cover;
+
+}
+.main-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.forma {
+}
+.subtitle {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(45, 55, 72, 1);
+
+}
+.titile {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+}
+.forma-info {
+    display: flex;
+    flex-direction: column;    
+}
+.email-ramka {
+    height: 50px;
+    width: 350px;
+    left: 0px;
+    top: 30px;
+    border-radius: 5px;
+}
+.password-ramka {
+    height: 50px;
+    width: 350px;
+    left: 0px;
+    top: 121px;
+    border-radius: 5px;
+
+}
+.forma-buttom {
+    display: flex;
+    justify-content: space-between;
+}
+.forma-buttom a:hover {
+    color: aqua;
+}
+.button-link {
+    text-decoration: none;
+}
+
+
+/* linklaaar */
+.link-item1 {
+    height: 50px;
+    width: 347px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    background: #04C45C;
+    align-items: center;
+    text-align: center;
+}
+.now-link {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-decoration: none;
+}
+/* ikkichi link */
+.google-link{
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;  
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.google-link1 {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 79px;
+
+}
+
+.link-item2 {
+    height: 50px;
+    width: 347px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    background: rgba(45, 55, 72, 1);
+}
+/* footeer */
+.footer-link a {
+    margin-bottom: 50px;
+    text-decoration: none;
+}
